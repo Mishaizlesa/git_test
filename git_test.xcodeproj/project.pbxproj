@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		BF45CFA3271DA533005C6E1D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF45CFA2271DA533005C6E1D /* main.cpp */; };
+		BF45CFAC271DA6C3005C6E1D /* mymath.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF45CFA9271DA6C3005C6E1D /* mymath.cpp */; };
+		BF45CFAD271DA6C3005C6E1D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF45CFAA271DA6C3005C6E1D /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,9 @@
 /* Begin PBXFileReference section */
 		BF45CF9F271DA533005C6E1D /* git_test */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = git_test; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF45CFA2271DA533005C6E1D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		BF45CFA9271DA6C3005C6E1D /* mymath.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = mymath.cpp; path = ../../mymath.cpp; sourceTree = "<group>"; };
+		BF45CFAA271DA6C3005C6E1D /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = ../../main.cpp; sourceTree = "<group>"; };
+		BF45CFAB271DA6C3005C6E1D /* mymath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mymath.h; path = ../../mymath.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +62,9 @@
 		BF45CFA1271DA533005C6E1D /* git_test */ = {
 			isa = PBXGroup;
 			children = (
+				BF45CFAA271DA6C3005C6E1D /* main.cpp */,
+				BF45CFA9271DA6C3005C6E1D /* mymath.cpp */,
+				BF45CFAB271DA6C3005C6E1D /* mymath.h */,
 				BF45CFA2271DA533005C6E1D /* main.cpp */,
 			);
 			path = git_test;
@@ -120,6 +128,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF45CFA3271DA533005C6E1D /* main.cpp in Sources */,
+				BF45CFAC271DA6C3005C6E1D /* mymath.cpp in Sources */,
+				BF45CFAD271DA6C3005C6E1D /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
